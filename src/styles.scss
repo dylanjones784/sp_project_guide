@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background: hsla(207, 18%, 60%, 1);
+
+    background: linear-gradient(180deg, hsla(207, 18%, 60%, 1) 0%, hsla(0, 0%, 3%, 1) 53%, hsla(340, 7%, 26%, 1) 100%);
+
+    background: -moz-linear-gradient(180deg, hsla(207, 18%, 60%, 1) 0%, hsla(0, 0%, 3%, 1) 53%, hsla(340, 7%, 26%, 1) 100%);
+
+    background: -webkit-linear-gradient(180deg, hsla(207, 18%, 60%, 1) 0%, hsla(0, 0%, 3%, 1) 53%, hsla(340, 7%, 26%, 1) 100%);
+
+   // filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#859AAB", endColorstr="#080808", GradientType=1 );
+}
